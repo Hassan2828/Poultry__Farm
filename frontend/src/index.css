@@ -1,0 +1,11 @@
+@import "tailwindcss";
+.slider-banner{
+    display: flex;
+    overflow: auto hidden;
+    scroll-snap-type: inline mandatory;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: start;
+}
+
+
+/* Response */

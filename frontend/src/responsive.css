@@ -1,0 +1,27 @@
+@media(max-width:400px){
+    .d-none{
+        display: none !important;
+    }
+    .gallery1{
+        display: unset !important;
+    }
+    .gallery1 .card{
+        width: 100% !important;
+    }
+    .header-container{
+        display: unset !important;
+    }
+    .swiper-wrapper{
+        width: 390px !important;
+        overflow-x: scroll !important;
+    }
+    .chick-card{
+        width: 100% !important;
+    }
+    .egg-container{
+     width: 390px !important;
+     display: unset !important;
+    }
+
+}
+

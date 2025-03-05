@@ -1,0 +1,75 @@
+.card {
+    width: 30%; 
+    height: auto; 
+    border: 1px solid white;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: transform 0.4s ease-in-out; */
+    margin-top: 20px;
+}
+
+/* .card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.22), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-8px);
+} */
+.card-image {
+    width: 100%;
+    height: 220px;
+    border-radius: 8px 8px 0px 0px; 
+}
+.content {
+    padding: 16px;
+    text-align: left;
+}
+.name {
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: rgb(12,12,14);
+}
+.description {
+    font-size: 12px;
+    color: #4D4D4F;
+}
+.pricing {
+    margin-top: 10px; 
+}
+.original-price {
+    text-decoration: line-through; 
+    color: #888; 
+    margin-right: 10px; 
+}
+.discounted-price {
+    font-size: 20px; 
+    color: #d9534f; 
+
+}
+.discount-percentage {
+    font-size: 12px; 
+    color: #4CAF50; 
+    padding-left: 10px;
+}
+.add-to-cart-button {
+    background-color: rgb(205,28,44) !important;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.add-to-cart-button:hover {
+    background-color: rgb(205,28,44) !important; 
+}
+.units-info span{
+    font-size: 14px;
+}
+.piece{
+    color: rgb(12,12,14);
+    font-weight: 300;
+    font-size: 14px !important;
+}
+.serve{
+    color: #4D4D4F;
+    padding-left: 4px;
+}

@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+.header-container{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom , #ffd4db,#fff);
+}
+.navbar{
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    max-width: 200px !important;
+    height: 50px;
+    cursor: pointer;
+}
+.location-button{
+    width: 210px;
+    height: 42px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin: 5px auto 0;
+    padding-left: 8px;
+    padding-bottom: 4px;
+}
+.location-button:hover{
+    background: rgb(254,227,230);
+   border-radius: 4px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    color: gray;
+    align-items: center;
+    margin-right: 10px;
+}
+.address{
+    width: 190px;
+    height: 35px;
+}
+.address-store{
+    font-weight: 500;
+    text-transform: capitalize;
+    color: hsl(0,0%,27%);
+    text-align: left !important;
+    visibility: inherit;
+}
+.address-name{
+    font-size: 0.7rem !important;
+    white-space: nowrap;;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: left !important;
+    padding-bottom: 5px;
+    color: hsl(0,0%,27%);
+
+}
+.address .full-address p{
+    width: 150px;
+    height: 20px;
+    flex-direction: column;
+
+}
+.secondary{
+    width: 530px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: blueviolet; */
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 45px;
+    border: 2px solid #e7e7e7;
+    background: #fff;
+    border-radius: 8px;
+    padding-left: 10px !important;
+    margin-right: 20px;    
+}
+ .inputfield{
+    width: 100%;
+    height:100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 20px 45px 20px 10px;
+}
+.search-box .inputfield::placeholder{
+    color: #000;
+} 
+.input-boxes i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.login-register{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    width: 210px;
+    height: 45px;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    color: hsl(0,0%,27%);
+}
+.rightside{
+    width: 100%;
+    height: 36px;
+        text-decoration: none !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 600;
+        margin-right: 30px;
+}
+ .icons{
+   width: 25px;
+   height: 25px;
+}
+.text{
+    font-size: 14px;
+    margin-left: 5px;
+    color: black;
+}
+.cart:hover,
+.signup:hover
+{
+    border: 4px solid rgb(254,227,230);
+    border-radius: 4px;
+    background: rgb(254,227,230);
+}
+.cart-badge {
+    background-color:#ce304b;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+}

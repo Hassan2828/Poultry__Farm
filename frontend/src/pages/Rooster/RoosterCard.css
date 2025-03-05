@@ -1,0 +1,149 @@
+.card {
+    width: 30%; /* Adjust width as necessary */
+    height: auto; /* Allow height to adjust based on content */
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 20px;
+}
+.card:hover{
+    /* border: 1px solid white; */
+    padding: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.2s ease-in-out;
+}
+/* .card:hover {
+    transform: translateY(-8px);
+} */
+.card-image {
+    width: 100%;
+    height: 220px;
+    border-radius: 8px 8px 0px 0px; 
+}
+.content {
+    padding: 16px;
+    text-align: left;
+}
+.name {
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: rgb(12,12,14);
+}
+.description {
+    font-size: 12px;
+    color: #4D4D4F;
+}
+.pricing {
+    margin-top: 10px;
+}
+.units-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.units-info .weight{
+    width: 48%;
+    height: 20px;
+    border: 1px solid  rgb(255,229,224) ;
+    border-radius: 999px;
+    background: rgb(255,229,224);
+    padding: 2px 4px 2px;
+    text-align: center;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.original-price {
+    text-decoration: line-through; 
+    color: #888;
+    margin-right: 10px;
+}
+.discounted-price {
+    font-size: 20px; 
+    color: #d9534f; 
+}
+.discount-percentage {
+    font-size: 12px; 
+    color: #4CAF50; 
+    padding-left: 10px;
+}
+.product_weight_img{
+    width: .6rem;
+    height: .7rem;
+    margin: .1rem .2rem 0 0;
+}
+.addtocart-section{
+    width: 86px;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.add-to-cart-button-1 {
+    background-color: rgb(205,28,44); /* Green */
+    color: #ffff !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.add-to-cart-button-1:hover {
+    background-color: rgb(205,28,44); /* Darker green */
+}
+.add-to-cart-button-1  {
+    background-color: rgb(205,28,44); /* Green */
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 16px;
+    margin-bottom: 20px;
+   }
+   .add-to-cart-button-1:hover {
+    background-color: rgb(205,28,44); /* Darker green */
+   }
+
+  .cart-quantity-1 button {
+    border: none; 
+    padding: 5px 10px;
+    cursor: pointer; 
+    font-size: 16px;    
+}
+ .cart-quantity-1 button:hover {
+    background-color: #e0b6ba ;
+}
+ .cart-quantity-1 span {
+    padding: 0; 
+    font-size: 16px;
+}
+  .units-info span{
+    font-size: 14px;
+}
+.piece{
+    color: #4D4D4F;
+    font-weight: 300;
+    font-size: 14px !important;
+}
+.piece .MRP{
+    color: rgb(12,12,14);
+    font-weight: 800;
+    font-size: 14px !important;
+}
+.weight{
+    color: #4D4D4F;
+}
+.chicks-age{
+    color: #4D4D4F;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.Chick-Color{
+    color: #4D4D4F;
+    font-size: 12px;
+}

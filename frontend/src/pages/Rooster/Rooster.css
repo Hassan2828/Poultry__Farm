@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.gallery1 {
+    width: 1100px;
+    display: flex;
+    justify-content: space-around; /* Space out cards evenly */
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin: 20px auto 0px;
+}

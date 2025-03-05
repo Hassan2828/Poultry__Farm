@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.category-header{
+    width: 100%;
+    height: 125px;
+    margin-top: 30px;
+    gap: 1rem;
+    padding: 1rem 0 0;
+    background-color: #ffebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-content{
+    width: 1080px;
+    height: 110px;
+    align-self: center;
+    scrollbar-color: silver #fefefe;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.slider-container{
+    width: 1080px;
+    height: 110px;
+    display: flex;
+    position: relative;
+}
+.swiper-container{
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0px;
+    z-index: 1;
+}
+.swiper-wrapper{
+    height: 110px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-box {
+    width: 173px;
+    height: 110px;
+    margin: 0 5px; /* Optional margin between boxes */
+}
+.circle-image{
+    object-fit: cover;
+}
+.header-box-3{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow:clip;
+    max-height: 100%;
+    border: 1px solid #ffffff;
+    text-align: left;
+    /* background: rgb(225, 225, 225); */
+    background: #ffffff;
+
+}
+.header-box img{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: clip;
+    max-height: 100%;
+    text-align: left;
+}
+.category-name{
+    font-size: 0.75rem !important;
+    line-height: 1.4rem !important;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 90px;
+    font-weight: 600;
+    text-decoration: none !important;
+    color: rgb(13,12,15);
+    cursor: pointer;
+    overflow: hidden;
+}
+.category-name:hover{
+    color: #cc1c2d;
+}
+.moving-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 4px;
+    background-color: #cc1c2d;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    transition: left 0.1s ease-in-out; 
+    display: none; 
+}
