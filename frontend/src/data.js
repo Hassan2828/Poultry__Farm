@@ -60,7 +60,7 @@ export const chickhome = [
           id : 2,
           imageSrc : home9,
           title : " Poultry Nipple Drinker System at ₹ 50000/unit ",
-          description : "A ",
+          description : "A3",
           price : 250,
           weight :  " Birds Per Cage: 12 to 14",
           age : "  L x B x H: 36 Inch x 22 inch x 11 inch",
